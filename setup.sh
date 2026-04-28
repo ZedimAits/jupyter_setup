@@ -2,10 +2,10 @@
 set -euo pipefail
 
 #SET PYTHON VERSION HERE:
-PYTHON_VER="${PYTHON_VER:-3.12}"
+PYTHON_VER="${PYTHON_VER:-3.11}"
 ################################
 
-VENV_DIR="${VENV_DIR:-venv}"
+VENV_DIR="${VENV_DIR:-.venv}"
 KERNEL_NAME="${KERNEL_NAME:-projekt-venv}"
 KERNEL_DISPLAY="${KERNEL_DISPLAY:-Python (projekt-venv)}"
 
